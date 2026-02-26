@@ -1,0 +1,151 @@
+html, body{
+    height: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 150%;
+    background:linear-gradient(to bottom, cyan,lime);
+}
+
+.title{
+    background-color: deeppink;
+    font-size:28px ;
+    text-align: center;
+    color: antiquewhite;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    animation: drop-down-anim 3s ease-in-out forwards;
+}
+
+@keyframes drop-down-anim{
+    from{
+        transform: translateX(-100%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.container{
+    max-width: 800px;
+    height: 450px;
+    background-color: rgb(108, 112, 243);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding:20px ;
+}
+
+.progress-bar-bg{
+    width: 90%;
+    height: 12px;
+    background-color: rgb(253, 253, 253);
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.fill{
+    width: 50%;
+    height: 12px;
+    background-color: rgb(134, 255, 217);
+    border-radius: 10px;
+}
+
+.question{
+    font-size: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.start-btn{
+    margin: auto;
+    display: block;
+    font-size: 36px;
+    border-radius: 20px;
+    margin-top: 150px;
+    background-color: rgb(99, 164, 255);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+.start-btn:hover{
+    background-color: lightgreen;
+    font-weight: 800;
+}
+
+.timer{
+    background-color: black;
+    color: cornflowerblue;
+    margin: auto;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    border-radius: 60%;
+    padding: 34px 10px;
+    font-family: cursive;
+}
+
+
+.option-btn{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: block;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.option-btn:hover{
+    background-color: blueviolet;
+    font-weight: 800;
+}
+
+.optionbox{
+    margin-top: 50px;
+}
+
+.score-label{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    color: rgb(85, 170, 255);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.feedback-label {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    color: rgb(85, 170, 255);
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.bgm{
+    margin:auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.music{
+    margin:auto;
+    display: block;
+    margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="main3.css">
+</head>
+<body>
+    <div class="title">
+        Genral knowledge Quiz
+    </div>
+
+    <div class="container">
+        <!-- progress bar--> 
+    <div class="progress-bar-bg" id="progress-bar-bg">
+        <div class="fill" id="fill"></div>
+    </div>
+
+        <!-- qustion label -->
+         <div class="question" id="question">
+            qustions will be be displayed here.press start to begin!
+         </div>
+
+        <!-- option buttons -->
+        <div class="optionbox" id="optionbox"></div>
+
+        <!-- score label -->
+        <div class="score-label" id="score-label">you score 0 point(s)</div>
+
+        <!-- feedback label -->
+        <div class="feedback-label" id="feedback-label"> Good Luck! </div>
+
+        <!-- start button -->
+        <button class="start-btn" id="start-btn"> start </button>  
+    </div>
+
+    <div class="timer">
+        <span id="timer-text">10</span>
+    </div>
+
+    <!--bgm dropdown-->
+    <select class="bgm" id="bgm">
+        <option value="Takedown Official Lyric Video feat. Jeongyeon, Jihyo and Chaeyoung from TWICE  KPop Demon Hunters.mp3">demon hunter (takedown)</option>
+        <option value="Taylor Swift - Opalite (Lyrics).mp3">talor swift (opalite)</option>
+        <option value="Golden Official Lyric Video  KPop Demon Hunters  Sony Animation.mp3">demon hunter (golden)</option>
+        <option value="Taylor Swift - Karma (Lyric Video).mp3">talor swift (karma)</option>
+        <option value="Your Idol  Official Song Clip  KPop Demon Hunters  Sony Animation.mp3">demon hunter (your idol)</option>
+    </select>
+
+    <button class="music" id="music">  🔈Music On  </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

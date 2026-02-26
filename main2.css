@@ -1,0 +1,54 @@
+html, body{
+    min-height: 100%;
+}
+body{
+background: linear-gradient(45deg,rgb(68, 0, 128),rgb(55, 43, 226));
+}
+
+.label-1 {
+    background-color: hotpink;
+    font-size: 28px;
+    text-align: center;
+    color: aquamarine;
+    padding:30px;
+    opacity: 0;
+    animation: fade-in 2s ease-in forwards;
+    height: 50px;
+    
+}
+
+@keyframes fade-in{
+    from {
+        opacity: 0;
+        font-size: 0;
+    }
+
+    to {
+        opacity: 1;
+        font-size: 28px;
+    }
+}
+
+.label-2 {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    animation: bg-anim 6s infinite;
+}
+
+@keyframes bg-anim{
+    0%{background-color: rgb(232, 24, 24);}
+    20%{background-color: rgb(245, 158, 7);}
+    40%{background-color: rgb(237, 249, 7);}
+    60%{background-color: chartreuse;}
+    80%{background-color: blue;}
+    100%{background-color: blueviolet;}
+}
+
+
+
+
+

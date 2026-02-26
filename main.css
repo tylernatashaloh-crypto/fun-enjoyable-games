@@ -1,0 +1,60 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title{
+    font-size: 24px;
+    color: aquamarine;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: fantasy;
+    padding: 20px;
+}
+
+.pic1{
+    width: 150px;
+    border: solid 10px ;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+
+.footer{
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.table1 {
+    margin: auto;
+    width: 90%;
+    background-color: rgb(0, 106, 255);
+    font-size: 14px;
+    font-family: cursive;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: cornflowerblue;
+}
+
+
+nav {
+    background-color: deepskyblue;
+}
+
+.navbar-toggler{
+    background-color: deeppink;
+}
+
+
+
+
+
